@@ -1,0 +1,466 @@
+/* ************** Responsive Design Create For FGRF Web Site ************** */
+
+@media only screen and (max-width: 1320px) {
+  .main-logo img {
+    height: 300px;
+    width: 300px;
+    margin-top: -80px;
+    margin-left: -25px;
+  }
+  .main-para {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .main-logo img {
+    height: 300px;
+    width: 300px;
+    margin-top: -90px;
+    margin-left: -30px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hamburger {
+    display: block;
+    color: #fafafa;
+    cursor: pointer;
+  }
+  .header {
+    height: 150px;
+    margin: 0;
+  }
+  .main-logo img {
+    height: 270px;
+    width: 270px;
+    margin-top: -90px;
+    margin-left: -40px;
+  }
+  .main-para {
+    font-size: 15px;
+    margin-left: 16px;
+    margin-top: -100px;
+  }
+  .header-logos {
+    margin-top: 5px;
+    font-size: 15px;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+  .nav-bar {
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    background-color: #c9c9c9;
+    transition: 0.5s;
+    overflow: hidden;
+    margin: 0;
+    border: 1px solid #798c94;
+  }
+  .nav-bar.active {
+    height: 333px;
+  }
+  .nav-bar ul {
+    display: block;
+    width: fit-content;
+    margin: -32px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .nav-bar.active ul {
+    opacity: 1;
+  }
+  .nav-bar ul li a {
+    margin-bottom: -15px;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    color: #333333;
+    display: block;
+    padding: 7px 125px;
+  }
+  .donate-logo1 {
+    position: absolute;
+    top: 230px;
+    left: 0;
+    right: 0;
+  }
+  .donate-logo1 span {
+    padding: 9px 124px 11px 124px;
+  }
+  .donate-logo {
+    justify-content: center;
+    margin-top: 75px;
+  }
+  .donate-pic {
+    background-image: url("images/pic\ 2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 400px;
+    margin: 0;
+  }
+  .details {
+    margin-top: -277px;
+  }
+  .detail-box1,
+  .detail-box2,
+  .detail-box3 {
+    width: 120px;
+    height: 109px;
+    margin: 1px;
+  }
+  .para1 {
+    font-size: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  .para2 {
+    font-size: 15px;
+  }
+
+  /* ************* Our Project Penal Responsive ****************** */
+  .main-our-project {
+    height: 1975px;
+  }
+
+  .our-project,
+  .intro-duction,
+  .our-media,
+  .achieve-ment,
+  .our-department,
+  .gallery {
+    font-size: 14px;
+  }
+  .globle-logo {
+    margin: 20px 0 0 155px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .project-detail-row1 {
+    flex-direction: column;
+    margin-top: 450px;
+  }
+  .box2-heading {
+    position: absolute;
+    top: 590px;
+    left: 20px;
+  }
+  .proj-box1 {
+    width: 330px;
+    position: absolute;
+    top: 1245px;
+    left: 14px;
+    background-size: 330px;
+    box-shadow: 0 0 20px -9px;
+  }
+  .box2-detail {
+    position: absolute;
+    top: 850px;
+    left: 60px;
+  }
+
+  .proj-calnder-btn button {
+    margin-left: 90px;
+  }
+  .box4-heading {
+    position: absolute;
+    top: 1010px;
+    left: 20px;
+  }
+  .proj-box3 {
+    width: 330px;
+    position: absolute;
+    top: 1665px;
+    left: 14px;
+    background-size: 330px;
+    box-shadow: 0 0 20px -9px;
+  }
+  .text-center1 {
+    display: none;
+  }
+  .text-center2 {
+    display: block;
+  }
+  .box4-detail {
+    position: absolute;
+    top: 1273px;
+    left: 60px;
+  }
+
+  .project-dateil-row2 {
+    flex-direction: column;
+  }
+  .box6-heading {
+    position: absolute;
+    top: 1437px;
+    left: 20px;
+  }
+  .proj-box5 {
+    width: 330px;
+    position: absolute;
+    top: 2095px;
+    left: 14px;
+    background-size: 330px;
+    box-shadow: 0 0 20px -9px;
+  }
+  .box6-detail {
+    position: absolute;
+    top: 1705px;
+    left: 60px;
+  }
+  .box8-heading {
+    position: absolute;
+    top: 1870px;
+    left: 20px;
+  }
+  .proj-box7 {
+    width: 330px;
+    position: absolute;
+    top: 2530px;
+    left: 14px;
+    background-size: 330px;
+    box-shadow: 0 0 20px -9px;
+  }
+  .box8-detail {
+    position: absolute;
+    top: 2142px;
+    left: 60px;
+  }
+  .all-proj-btn {
+    position: absolute;
+    top: 2670px;
+    left: 100px;
+  }
+
+  /* ************* Introduction-Penal  Responsive ****************** */
+  .introduction-penal {
+    height: 640px;
+  }
+  .intro-penal-detail {
+    margin-top: 10px;
+  }
+  .intro-penal-detail h3 {
+    padding: 0 20px;
+    text-align: center;
+  }
+  .intro-penal-detail p {
+    padding: 0 11px;
+  }
+
+  /* ************* Media-Penal  Responsive ****************** */
+  .media-penal {
+    height: 1015px;
+    width: 360px;
+    margin: -40px 0 0 0;
+  }
+  .media-vid-penal-row1 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 15px;
+  }
+  .media-vid-penal-row2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .penal-vid1 {
+    width: 270px;
+    height: 136px;
+  }
+  .media-penal i{
+  margin: 50px 110px;
+  }
+  
+  /* ************* Achievement-Penal  Responsive ****************** */
+  .achievement-penal {
+    height: 1940px;
+    padding-top: 7px;
+  }
+  .achievement-penal-boxs{
+    flex-direction: column;
+    align-items: center;
+  margin-top: 0;
+  gap: 15px;
+  }
+  .achieve-penal-box1,
+.achieve-penal-box2,
+.achieve-penal-box3,
+.achieve-penal-box4{
+  height: 427px;
+  width: 330px;
+}
+.achieve-penal-inner-pic{
+  width: 320px;
+  height: 300px;
+}
+.achieve-penal-inner-detail{
+  width: 320px;
+}
+
+/* ************* Department-Penal  Responsive ****************** */
+.our-department-penal{
+  height: 1235px;
+  margin-top: 0;
+}
+.department-penal-detail{
+  margin-top: 10px;
+  flex-direction: column;
+}
+.department-penal-main-pic{
+  width: 320px;
+  height: 309px;
+  margin-left: 20px;
+}
+.department-penal-child-pics{
+  margin: 10px 0 0 23px;
+}
+.department-penal-child-pics img{
+  width: 151px;
+  height: 120px;
+}
+.right-arrow,
+.left-arrow {
+  font-size: 40px;
+  margin: 0 125px;
+}
+.department-penal-ops {
+  margin: 0px 26px;
+}
+.department-penal-ops a{
+  font-size: 18px;
+}
+
+/* ************* Sub Department-Penal  Responsive ****************** */
+.sub-our-department-penal{
+  margin: 0;
+} 
+.sub-department-contant h2{
+  font-size: 26px;
+  text-align: center;
+}
+.sub-department-contant p{
+  padding: 0 8px;
+}
+
+/* ************* Gallery-Penal  Responsive ****************** */
+.gallery-penal {
+  height: 1805px;
+}
+.gallery-penal-detail-row1,
+.gallery-penal-detail-row2{
+  flex-direction: column;
+  align-items: center;
+}
+.gallery-penal-box{
+  margin: 10px 15px;
+}
+.gallery-penal-box-row2 {
+  margin: 10px 15px;
+}
+.gallery-penal-box,
+.gallery-penal-box-row2{
+  width: 302px;
+  height: 297px;
+}
+.gallery-penal-box img,
+.gallery-penal-box-row2 img{
+  width: 300px;
+  height: 295px;
+}
+.respons-none{
+  display: none;
+}
+.gallery-viwe-more-btn{
+  margin-top: 5px;
+}
+
+/* ************* News and Contact Penal Responsive ****************** */
+/********** News Area Create **********/
+.news-contact-penal{
+  height: 2110px;
+  flex-direction: column;
+}
+.news-main-header,
+.contact-main-header{
+  width: 330px;
+}
+.news-inner-box{
+  flex-direction: column;
+  margin: 20px 0 0 0;
+}
+.news-inner-box-pic img{
+  width: 330px;
+  height: 187px;
+}
+.news-inner-box-detail h4, .news-inner-box-detail p{
+  text-align: center;
+}
+
+/********** Contact Area Create **********/
+.contact-inner-box{
+  flex-direction: column;
+  align-items: center;
+  height: 720px; 
+  width: 330px; 
+  margin-left: 15px;
+}
+input{
+  width: 270px;
+}
+.input {
+  margin: 0 0;
+}
+.first2, .second2 {
+  gap: 17px;
+  flex-direction: column;
+}
+.sub-inp input,
+.msg-inp input {
+  width: 270px;
+}
+.sub-inp,
+.msg-inp,
+.contact-btn {
+  margin-left: 0;
+}
+
+/* ************* Footer Responsive ****************** */
+.footer{
+  height: 580px;
+  flex-direction: column;
+  margin: 10px 0 0 0;
+  
+}
+.foot-logo img {
+  width: 150px;
+  height: 70px;
+}
+.foot-box1 p{
+  margin-right: -17px;
+}
+.cont-row1 p{
+  padding-right: 20px;
+}
+.cont-row2{
+  margin-right: 15px;
+}
+.foot-box2 p{
+  margin-top: 50px;
+}
+.hoz-line hr {
+  width: 326px;
+}
+/* ************* Sub Footer Responsive ****************** */
+.sub-footer{
+  margin: 0;
+}
+}
